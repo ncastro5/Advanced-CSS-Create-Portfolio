@@ -21,25 +21,34 @@ header {
   }
 
   nav a {
-    color: #316705;
+    color: #878480;
     font-weight: bold;
     text-decoration: none;
   }
   
   nav a:hover {
-    color: #fff;
+    color: #484c4c;
   }
 
   .hero {
-    background-image: url(../assets/images/Screenshot\ 2023-05-08\ at\ 4.10.55\ PM.png)
+    background-image: url(../assets/images/Screenshot\ 2023-05-08\ at\ 4.10.55\ PM.png);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+  }
 
+  h2 {
+    color: white;
   }
 
   main {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2%;
-    justify-content: space-between;
+    margin: auto;
   }
 
 
