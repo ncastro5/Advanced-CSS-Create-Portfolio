@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    height: 100%;
     font-family: sans-serif;
     box-sizing: border-box;
 }
@@ -11,11 +12,12 @@ header {
     align-items: center;
     padding: 1%;
     background-color: #a7eea6;
-    color: #0b67bc;
+    color: #878480;
+    height: 100px;
   }
 
   h1 {
-    font-size: 300%;
+    font-size: 250%;
   }
 
   nav a {
@@ -26,6 +28,11 @@ header {
   
   nav a:hover {
     color: #fff;
+  }
+
+  .hero {
+    background-image: url(../assets/images/Screenshot\ 2023-05-08\ at\ 4.10.55\ PM.png)
+
   }
 
   main {
