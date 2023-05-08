@@ -5,14 +5,28 @@
     box-sizing: border-box;
 }
 
-header{
-    height: 8vh;
-    width: 100%;
-    background-color: green;
-}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #a7eea6;
+    color: #0b67bc;
+  }
 
+  h1 {
+    font-size: 300%;
+  }
 
-
+  nav a {
+    color: #316705;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
 
 
 
