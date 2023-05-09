@@ -1,10 +1,10 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: sans-serif;
     box-sizing: border-box;
-}
+} */
 
 header {
     display: flex;
@@ -27,7 +27,7 @@ header {
   }
   
   nav a:hover {
-    color: #e6fefe;
+    color: #1c7878;
   }
 
   .hero {
@@ -40,16 +40,37 @@ header {
   }
 
   h2 {
-    color: white;
+    color: rgb(9, 9, 9);
   }
 
-  main {
+  .portfolio-contain {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .portfolio-contain>div {
+   position: relative;
+  }
+  
+  .portfolio-titles {
+    position: absolute;
+    bottom: 20px;
+    left: 20px
+  }
+
+
+  .portfolio-contain>div:first-child {
+    /* flex-basis: 100%; */
+  }
+
+  /* main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 2%;
     margin: auto;
-  }
+  } */
 
 
 
