@@ -11,7 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #a7eea6;
+    background-color: #020402;
     color: #878480;
     height: 100px;
   }
@@ -21,18 +21,18 @@ header {
   }
 
   nav a {
-    color: #878480;
+    color: #71f147;
     font-weight: bold;
     text-decoration: none;
   }
   
   nav a:hover {
-    color: #484c4c;
+    color: #e6fefe;
   }
 
   .hero {
     background-image: url(../assets/images/Screenshot\ 2023-05-08\ at\ 4.10.55\ PM.png);
-    height: 400px;
+    height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
