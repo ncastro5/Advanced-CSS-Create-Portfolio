@@ -60,9 +60,9 @@ header {
   }
 
 
-  .portfolio-contain>div:first-child {
-    /* flex-basis: 100%; */
-  }
+  /* .portfolio-contain>div:first-child {
+    flex-basis: 100%;
+  } */
 
   /* main {
     display: flex;
