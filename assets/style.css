@@ -1,64 +1,101 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
-    height: 100%;
-    font-family: sans-serif;
     box-sizing: border-box;
-} */
+}
 
-header {
+body {
+    background-color: rgb(198, 195, 195);
+}
+
+header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
     background-color: #020402;
     color: #878480;
     height: 100px;
-  }
-
-  h1 {
     font-size: 250%;
+    margin: auto;
   }
 
-  nav a {
+.header nav a {
     color: #71f147;
     font-weight: bold;
     text-decoration: none;
+    display: flex;
+    padding: 8px;
+    width: 150;
   }
   
-  nav a:hover {
-    color: #1c7878;
+.header nav a:hover {
+    color: #d79a28;
   }
 
-  .hero {
+.header ul {
+    margin-right: 25px;
+    float: right;
+    padding-top: 25px;
+}
+
+.header li {
+    display: flex;
+    margin-left: 20px;
+}
+
+.hero h2 {
     background-image: url(../assets/images/Screenshot\ 2023-05-08\ at\ 4.10.55\ PM.png);
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-  }
-
-  h2 {
     color: rgb(9, 9, 9);
+    font-size: 25px;
   }
 
-  .portfolio-contain {
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3%
+
+}
+
+section {
+    flex: 0 0 70%;
+}
+
+p {
+    font-size: 20px;
+    justify-content: left;
+}
+
+.contain-main {
+    display: grid;
+    margin-left: 5%;
+    width: 80%;
+}
+
+
+
+
+
+/* .portfolio-contain {
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .portfolio-contain>div {
+.portfolio-contain>div {
    position: relative;
   }
   
-  .portfolio-titles {
+.portfolio-titles {
     position: absolute;
     bottom: 20px;
     left: 20px
-  }
-
+  } */
 
   /* .portfolio-contain>div:first-child {
     flex-basis: 100%;
